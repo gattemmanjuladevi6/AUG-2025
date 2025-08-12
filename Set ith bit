@@ -1,3 +1,4 @@
-class Solution:
-	def setKthBit(self, n, i):
-		return (n | (1<<i)) 
+n = int(input())
+k = int(input())
+n = n&(~(1<<k))
+print(n)
